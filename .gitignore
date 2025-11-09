@@ -27,6 +27,10 @@ yarn-error.log*
 *.tmp
 *.temp
 .cache/
+PUBLISH_INSTRUCTIONS.md
+
+# Keep screenshots folder
+!screenshots/
 
 # Environment Variables
 .env

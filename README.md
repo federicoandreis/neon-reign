@@ -4,7 +4,11 @@
 
 **A web-based card game inspired by Reigns, set in a dystopian cyberpunk future**
 
-[Play Now](#-quick-start) • [Features](#-features) • [How to Play](#-how-to-play) • [Development](#-development)
+[Play Now](#-quick-start) • [Features](#-features) • [How to Play](#-how-to-play) • [Screenshots](#-screenshots) • [Development](#-development)
+
+[![Play Game](https://img.shields.io/badge/Play-Live%20Demo-00ff9f?style=for-the-badge&logo=github)](https://federicoandreis.github.io/neon-reign/)
+[![License](https://img.shields.io/badge/License-MIT-ff0055?style=for-the-badge)](LICENSE)
+[![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-00ffff?style=for-the-badge&logo=javascript)](game.js)
 
 </div>
 
@@ -17,6 +21,37 @@ Welcome to **Neo Tokyo, 2077**. You are the newly appointed CEO of MegaCorp Indu
 Balance **Power**, **Credits**, **Technology**, and **Public Opinion** as you navigate through encounters with hackers, scientists, mercenaries, and activists. One wrong move could trigger a revolution, economic collapse, or technological singularity.
 
 **How long can you maintain control?**
+
+## 📸 Screenshots
+
+<div align="center">
+
+### Welcome to Neo Tokyo
+<img src="screenshots/intro.png" alt="Intro Screen" width="600"/>
+
+*The cyberpunk intro screen with glitch effects*
+
+### Gameplay
+<img src="screenshots/gameplay.png" alt="Gameplay" width="600"/>
+
+*Make tough decisions with real consequences*
+
+### Swipe Mechanics
+<img src="screenshots/swipe.png" alt="Swipe Mechanic" width="600"/>
+
+*Intuitive swipe left/right controls*
+
+### Resource Management
+<img src="screenshots/resources.png" alt="Resource Bars" width="600"/>
+
+*Balance four critical resources to survive*
+
+### Game Over
+<img src="screenshots/gameover.png" alt="Game Over" width="600"/>
+
+*Multiple unique failure scenarios*
+
+</div>
 
 ## ✨ Features
 
