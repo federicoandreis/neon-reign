@@ -54,7 +54,7 @@ Balance **Power**, **Credits**, **Technology**, and **Public Opinion** as you na
 ### Option 2: Local Server (Recommended)
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/neon-reign.git
+git clone https://github.com/federicoandreis/neon-reign.git
 cd neon-reign
 
 # Start a local server (Python 3)
