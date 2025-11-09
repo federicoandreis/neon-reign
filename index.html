@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Reign - Cyberpunk Card Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Resource Bars -->
+        <div class="resources">
+            <div class="resource-bar">
+                <div class="resource-icon">⚡</div>
+                <div class="resource-fill-container">
+                    <div class="resource-fill" id="power-fill"></div>
+                </div>
+                <span class="resource-label">Power</span>
+            </div>
+            <div class="resource-bar">
+                <div class="resource-icon">💰</div>
+                <div class="resource-fill-container">
+                    <div class="resource-fill" id="credits-fill"></div>
+                </div>
+                <span class="resource-label">Credits</span>
+            </div>
+            <div class="resource-bar">
+                <div class="resource-icon">🤖</div>
+                <div class="resource-fill-container">
+                    <div class="resource-fill" id="tech-fill"></div>
+                </div>
+                <span class="resource-label">Tech</span>
+            </div>
+            <div class="resource-bar">
+                <div class="resource-icon">👥</div>
+                <div class="resource-fill-container">
+                    <div class="resource-fill" id="people-fill"></div>
+                </div>
+                <span class="resource-label">People</span>
+            </div>
+        </div>
+
+        <!-- Day Counter -->
+        <div class="day-counter">
+            <span>Day <span id="day-number">1</span></span>
+        </div>
+
+        <!-- Card Stack -->
+        <div class="card-stack" id="card-stack">
+            <!-- Cards will be dynamically added here -->
+        </div>
+
+        <!-- Swipe Indicators -->
+        <div class="swipe-indicator left" id="left-indicator">
+            <div class="indicator-content">
+                <div class="indicator-icon">←</div>
+                <div class="indicator-text" id="left-text">Reject</div>
+            </div>
+        </div>
+        <div class="swipe-indicator right" id="right-indicator">
+            <div class="indicator-content">
+                <div class="indicator-icon">→</div>
+                <div class="indicator-text" id="right-text">Accept</div>
+            </div>
+        </div>
+
+        <!-- Game Over Screen -->
+        <div class="game-over" id="game-over">
+            <div class="game-over-content">
+                <h1 class="glitch" data-text="SYSTEM FAILURE">SYSTEM FAILURE</h1>
+                <p id="game-over-message"></p>
+                <p class="game-over-stats">You survived <span id="final-day">0</span> days</p>
+                <button class="restart-btn" onclick="restartGame()">REBOOT SYSTEM</button>
+            </div>
+        </div>
+
+        <!-- Intro Screen -->
+        <div class="intro-screen" id="intro-screen">
+            <div class="intro-content">
+                <h1 class="glitch" data-text="NEON REIGN">NEON REIGN</h1>
+                <p class="intro-subtitle">Year 2077 - Neo Tokyo</p>
+                <p class="intro-text">
+                    You are the newly appointed CEO of MegaCorp Industries.<br>
+                    Balance power, credits, technology, and public opinion.<br>
+                    Every decision matters. Every choice has consequences.<br><br>
+                    <strong>Swipe LEFT to reject. Swipe RIGHT to accept.</strong>
+                </p>
+                <button class="start-btn" onclick="startGame()">JACK IN</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
